@@ -1,0 +1,300 @@
+* {
+	margin: 0;
+}
+
+body {
+	background-color: white;
+	user-select: none;
+}
+
+.logo {
+	margin-left: 320px;
+}
+
+li {
+	list-style-type: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+.miniHeader {
+	width: 100%;
+	background-color: rgba(0, 34, 16, 1);
+	height: 60px;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+}
+
+.menu {
+	display: inline-flex;
+}
+
+.menu-icon {
+	margin-right: 320px;
+	display: inline-flex;
+}
+
+.menu-icon img {
+	margin-left: 65px;
+}
+
+.menu li {
+	margin-left: 65px;
+}
+
+a:link, a:hover, a:active, a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+.main-header {
+	background-image: url("image/image 1.png");
+	background-size: cover;       /* Растягивает на весь блок */
+	background-position: center;  /* Центрирует картинку */
+	background-repeat: no-repeat; /* Убирает повторение */
+	height: 600px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+
+.content {
+	width: 700px;
+	margin-left: 320px;
+}
+
+.content h1 {
+	padding-bottom: 20px;
+	color: white;
+	font-family: 'Cormorant';
+	font-size: 64px;
+	font-weight: 600;
+}
+
+.content p {
+	padding-bottom: 20px;
+	color: white;
+	font-weight: 350;
+	font-size: 24px;
+}
+
+h2 {
+	color: black;
+	margin-top: 60px;
+	margin-left: 320px;
+	font-size: 48px;
+	font-family: 'Cormorant';
+	font-weight: 800;
+}
+
+.artifact {
+	height: auto;
+	display: inline-flex;
+	justify-content: center;
+	margin-top: 30px;
+	margin-bottom: 60px;
+	width: 100%;
+}
+
+.info-label {
+	width: 255px;
+	height: 495px;
+	margin-left: 60px;
+	background-color: rgba(204, 255, 51, 0.72);
+}
+
+.info-container{
+	width: 223px;
+	height: 460px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.info-label h3 {
+	margin-top: 65px;
+	color: white;
+	font-size: 36px;
+}
+
+.info-label p {
+	color: rgba(73, 66, 66, 1);
+	font-size: 24px;
+	margin-top: 15px;
+	line-height: 125%;
+}
+
+.info-label button {
+	background-color: rgba(0, 34, 16, 1);
+	color: white;
+	border: none;
+	font-size: 24px;
+	margin-top: 25px;
+
+}
+
+.gallery {
+	display: inline-flex;
+	width: 100%;
+	height: auto;
+	justify-content: center;
+}
+
+.card {
+	margin-left: 60px;
+	width: 250px;
+	border: 1px solid;
+	border-color: rgba(204, 255, 51, 1);
+	
+}
+
+.card:first-child {
+	width: 250px;
+	border: 1px solid;
+	border-color: rgba(204, 255, 51, 1);
+	margin: 0;
+}
+
+.card h3 {
+	margin: 16px;
+	color: black;
+	font-family: 'Cormorant';
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.card p {
+	height: 100px;
+	margin: 16px;
+	font-size: 16px;
+}
+
+.card button {
+	background-color: #1d2f3000;
+	border-color: #BAE249;
+	color: #BAE249;
+	width: 220px;
+	margin: 16px;
+	height: 45px;
+	font-size: 16px;
+	border: 1px solid;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px 20px ;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;	
+}
+
+button {
+	background-color: green;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+.cancelbtn {
+	width: auto;
+	padding: 10px 18px;
+	background-color: red;
+}
+
+img.avatar {
+	width: 25%;
+	border-radius: 50%;
+}
+
+.container {
+	padding: 16px;
+}
+
+span.psw {
+	float: right;
+	padding-top: 16px;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgb(0, 0, 0 , 0.4);
+	padding: 60px;
+}
+
+.imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+}
+
+@media screen and (max-width: 300px)
+{
+	span.psw {
+		display: block;
+		float: none;
+	}
+
+	.cancelbtn {
+		width: 100%;
+	}
+}
+
+.modal-content {
+	background-color: #fefefe;
+	margin: 5px auto;
+	border: 1px solid #888;
+	width: 80%;
+}
+
+.close {
+	position: absolute;
+	right: 25px;
+	top: 0;
+	color: #000;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: red;
+	cursor: pointer;
+}
+
+.animate {
+	-webkit-animation: animatezoom 0,6s;
+	animation: animatezoom 0,6s;
+}
+
+@-webkit-keyframes animatezoom {
+	from {-webkit-transform: scale(0)}
+	to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+	from {transform: scale(0)}
+	to {transform: scale(1)}
+}
